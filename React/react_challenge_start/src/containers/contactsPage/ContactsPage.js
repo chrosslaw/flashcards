@@ -3,11 +3,9 @@ import { ContactForm } from "../../components/contactForm/ContactForm";
 import { TileList } from "../../components/tileList/TileList";
 
 export const ContactsPage = (props) => {
-  /*
-  Define state variables for 
-  contact info and duplicate check
-  */
-  const [contacts, setContacts] = useState(props);
+  const contacts = props.contacts;
+  const addContact = props.addContact;
+  
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
