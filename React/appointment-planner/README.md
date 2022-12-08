@@ -1,1 +1,1 @@
-# appoointment-planner
+# appointment-planner
