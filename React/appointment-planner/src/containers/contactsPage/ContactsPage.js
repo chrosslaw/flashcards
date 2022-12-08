@@ -5,7 +5,7 @@ import { TileList } from "../../components/tileList/TileList";
 export const ContactsPage = (props) => {
   const contacts = props.contacts;
   const addContact = props.addContact;
-  
+
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
