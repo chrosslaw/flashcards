@@ -1565,7 +1565,7 @@
     "schema-utils" "^3.0.0"
     "source-map" "^0.7.3"
 
-"@reduxjs/toolkit@^1.5.0":
+"@reduxjs/toolkit@^1.9.1":
   "integrity" "sha512-HikrdY+IDgRfRYlCTGUQaiCxxDDgM1mQrRbZ6S1HFZX5ZYuJ4o8EstNmhTwHdPl2rTmLxzwSu0b3AyeyTlR+RA=="
   "resolved" "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-1.9.1.tgz"
   "version" "1.9.1"
