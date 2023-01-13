@@ -17,7 +17,7 @@ export default function NewTopicForm() {
     if (name.length === 0) {
       return;
     }
-    dispatch(addTopic({ name: name, id: uuidv4, icon: icon }));
+    dispatch(addTopic({ name: name, id: uuidv4(), icon }));
     // dispatch your add topic action here
     history.push(ROUTES.topicsRoute());
   };
